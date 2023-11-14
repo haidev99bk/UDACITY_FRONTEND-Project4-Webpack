@@ -1,9 +1,18 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+
 const path = require("path");
 
 module.exports = {
   entry: "./src/client/index.js",
-
+  mode: "development",
+  output: {},
+  devServer: {
+    static: {
+      directory: path.join(__dirname, "dist"),
+    },
+    compress: true,
+    port: 9000,
+  },
   module: {
     rules: [
       {
@@ -29,4 +38,7 @@ module.exports = {
       filename: "./index.html",
     }),
   ],
+  optimization: {
+    runtimeChunk: "single",
+  },
 };
