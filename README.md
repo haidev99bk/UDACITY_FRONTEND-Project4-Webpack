@@ -1,30 +1,14 @@
-###Step 1:
-npm run start => notice that file open does not have style => need to build
+## How to run:
 
-- add webpack.dev.js and webpack.prod.js
+### NODE:
 
-###Step 2:
-(handle scss and html)
+node: v14.21.2
 
-- add style loader and add htmlWebpackPlugin to generate html file
+### STEPS:
 
-###Step 3:
-(handle js)
+1. npm run start
+2. npm run build-dev
 
-- add babel inorder to use import syntax
+### BUILD PRODUCT:
 
-###Step 4:
-(handle dom event)
-
--
-
-##Keywords:
-
-- scss webpack
-- html webpack: HtmlWebpackPlugin
-- js: babel loader
-- dom event: output webpack
-
-##Tools:
-
-- webpack-dev-server
+- npm run build-prod
