@@ -6,8 +6,9 @@ node: v14.21.2
 
 ### STEPS:
 
-1. npm run start
-2. npm run build-dev
+1. open .env file and add your api key
+2. npm run start
+3. npm run build-dev
 
 ### BUILD PRODUCT:
 
